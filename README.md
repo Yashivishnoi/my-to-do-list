@@ -10,7 +10,7 @@ It allows users to add, delete, and manage their daily tasks efficiently.
 Here’s how the To-Do List app looks 👇  
 
 ### 🖼️ Screenshot 1
-![App Screenshot 1](output1(2).png)
+![App Screenshot 1](output1.png)
 
 ### 🖼️ Screenshot 2
 ![App Screenshot 2](output2.png)
