@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yashi’s To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main-container">
+    <h1>🧠 Yashi’s To-Do List</h1>
+
+    <div class="todo-grid">
+      <section class="todo-section">
+        <h2>🌅 Daily Routine</h2>
+        <div class="input-box">
+          <input type="text" id="dailyInput" placeholder="Add daily task..." />
+          <button onclick="addTask('daily')">Add</button>
+        </div>
+        <ul id="dailyList"></ul>
+      </section>
+
+      <section class="todo-section">
+        <h2>🎓 Study / College Work</h2>
+        <div class="input-box">
+          <input type="text" id="studyInput" placeholder="Add study task..." />
+          <button onclick="addTask('study')">Add</button>
+        </div>
+        <ul id="studyList"></ul>
+      </section>
+
+      <section class="todo-section">
+        <h2>💻 Web Development</h2>
+        <div class="input-box">
+          <input type="text" id="webInput" placeholder="Add web task..." />
+          <button onclick="addTask('web')">Add</button>
+        </div>
+        <ul id="webList"></ul>
+      </section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
